@@ -1,0 +1,165 @@
+/*
+
+My Custom CSS
+=============
+
+Author:  Brad Hussey
+Updated: August 2013
+Notes:	 Hand coded for Udemy.com
+
+*/
+
+
+/* --------------------------------------
+   Layout
+   -------------------------------------- */
+   #mainPic{
+     width: 540px;
+     height: 399px;
+   }
+
+/* --------------------------------------
+   Typography
+   -------------------------------------- */
+
+
+
+/* --------------------------------------
+   Navbar
+   -------------------------------------- */
+
+   .navbar-brand
+   {
+       margin-top: -20px;
+
+    }
+
+
+    #navbar-responsive-collapse
+      {
+     padding-top: 20px;
+     }
+
+
+
+
+      #admin a, #history a, #logIn a
+      {
+        color: #777;
+      }
+
+/* --------------------------------------
+   Carousel
+   -------------------------------------- */
+
+
+
+/* --------------------------------------
+   Global Styles
+   -------------------------------------- */
+
+    .well{
+    background: #F5F5DC;
+    }
+
+
+
+
+    #belowSect{
+      text-align: center;
+    }
+   #Pic
+   {
+     height: 200px;
+     width: 300px;
+
+   }
+   strong, address, address a
+   {
+     color: #f5f5f5;
+     list-style: none;
+     text-decoration: none;
+   }
+   #data {
+     color: #777;
+     font-style: italic;
+   }
+    #main strong{
+      color: #777;
+    }
+
+   footer{
+    background: #777;
+
+   }
+
+   #links li,#links li a{
+     color: #f5f5f5;
+     list-style: none;
+     text-decoration: none;
+
+    }
+
+    #main .row
+    {
+      color: #777;
+    }
+
+   #Modalpic
+   {
+     width: 480px;
+     height: 342px;
+   }
+   #logo{
+     height: .9em;
+     width: .9em;
+   }
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+
+/* Portrait & landscape phone */
+@media (max-width: 480px) {
+
+  #mainPic{
+    width: 250px;
+
+  }
+
+   #Modalpic{
+     width: 270px;
+   }
+
+
+}
+
+/* Landscape phone to portrait tablet */
+@media (min-width: 480px) and (max-width: 767px) {
+
+
+
+  #mainPic{
+    width: 365px;
+
+  }
+
+
+  #Modalpic{
+    width: 360px;
+  }
+
+
+}
+
+/* Large desktop */
+@media (min-width: 768px) and (max-width: 1200px) {
+  #navi{
+  margin-left: 200px;
+}
+  #mainPic{
+    width: 355px;
+
+  }
+
+
+}

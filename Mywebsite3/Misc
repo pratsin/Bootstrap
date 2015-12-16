@@ -1,0 +1,73 @@
+<div class="container" id="main">
+  <nav class="navbar navbar-fixed-top">
+    <div class="container">
+     <button type="button" class="navbar-toggle collapsed"  data-target="#navbar-responsive-collapse" data-toggle="collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+      </button>
+   <a class="navbar-brand" href="#"><img src="images/Schooltext.jpg" alt="Your Logo"></a>
+      <div class="collapse navbar-collapse" id="navbar-responsive-collapse">
+        <ul class="nav navbar-nav" id="navi" >
+             <li><a href="#">Home </a></li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">History<strong class="caret"></strong></a>
+                 <ul class="dropdown-menu" id="history">
+                   <li><a href="#">About Founder</a></li>
+                    <li><a href="#">About School</a></li></ul></li>
+               <li class="dropdown">
+                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Administration<strong class="caret"></strong></a>
+                   <ul class="dropdown-menu" id="admin">
+                     <li><a href="#">Departments</a></li>
+                     <li><a href="#">Finance</a></li>
+
+                      <li role="seperator" class="divider">Extra</li>
+                      <li><a href="#">Student Prefects</a></li>
+                     </ul></li>
+                <li><a href="#">Academics</a></li>
+               <li><a href="#">Contact us</a></li>
+               <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-user"></span> Log-in<strong class="caret"></strong></a>
+                  <ul class="dropdown-menu" id="logIn">
+                 <li><a href="#"><span class="glyphicon glyphicon-lock"></span> Sign-in</a></li>
+                   <li><a href="mymodal10"  data-toggle="modal"><span class="glyphicon glyphicon-circle-arrow-up"></span> Sign-up</a></li>
+                    <!--a href="#myModal" role="button" class="btn btn-info" data-toggle="modal"><span class="glyphicon glyphicon-hand-up"></span>Click for more information</a-->
+
+                            <div class="modal fade" id="mymodal10">
+                                <div class="modal-dialog">
+                                 <div class="modal-content">
+                                       <div class="modal-header" >
+                                        <button class="close" data-dismiss="modal">&times;</button>
+                                        <h4 class="modal-title">Sign up Page</h4>
+                                      </div>
+                                 <div class="modal-body">
+                                   <h4>Please use your School mail addy for sign up purpose.</h4>
+
+                          <form class="form-horizontal">
+                            <div class="form-group">
+                              <label class="col-lg-2 control-label" for="inputName">Name</label>
+                              <div class="col-lg-10">
+                                <input class="form-control" id="inputName" placeholder="Student's Name" type="text">
+                              </div>
+                            </div>
+
+                            <div class="form-group">
+                              <label class="col-lg-2 control-label" for="inputEmail">Email</label>
+                              <div class="col-lg-10">
+                                <input class="form-control" id="inputEmail" placeholder="School Email" type="email">
+                              </div>
+                            </div>
+                            </form>
+                        </div>
+                          <div class="modal-footer">
+                            <button class="btn btn-default" data-dismiss="modal" type="button">Close</button>
+                            <button class="btn btn-success" type="button">Sign-in</button>
+                          </div>
+                        </div>
+                      </div>
+                     </div>
+                 </ul>
+               </li>
+           </ul>
+         </div>
+        </div>
+    </nav>
